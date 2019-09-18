@@ -10,6 +10,10 @@ import { Component } from '@angular/core';
     <li> {{ liste[1] }}</li>
   </ul>
   {{ useConsole() }}
+  <hr>
+  <ul>
+    <li *ngFor='let l of liste'> {{ l }}</li>
+  </ul>
   `
 })
 export class TroisiemeComponent {
