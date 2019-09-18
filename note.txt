@@ -1,0 +1,21 @@
+ne pas hésiter à récupérer la version papier du cours de typescript
+
+http://formation.webdevpro.net/typescript/assets/support/support-ts.pdf
+
+------------------------
+
+http://formation.webdevpro.net/angular/
+
+login : angular
+mdp : angular8
+
+suivre le cours :
+
+https://github.com/webdevproformation/angular-jour1
+
+------------------------
+
+Créer le composant "deuxieme" manuellement
+
+qui va afficher à l'écran le texte suivant :
+<h2> je suis le deuxieme composant de l'application Angular</h2>
