@@ -1,18 +1,36 @@
 # Jour1
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.4.
+Découverte Angular
 
-## Development server
+## Support de cours
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+<a href="http://formation.webdevpro.net/angular/" target="_blank">http://formation.webdevpro.net/angular/</a>
 
-## Code scaffolding
+## Exo 1
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Créer le composant "deuxieme" manuellement
 
-## Build
+qui va afficher à l'écran le texte suivant :
+&lt;h2&lg; je suis le deuxieme composant de l'application Angular&lt;/h2&gt;
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+## Exo 2
+
+Créer le composant "quatrieme" via Angular CLI
+
+qui va afficher à l'écran le texte suivant (en utilisant *ngFor):
+
+- Pomme
+- Poire
+- Abricot
+
+via une variable dans la class QuatriemeComponent
+
+course : Array&lt;string&gt;=  [
+    {id: 1, nom: "Pomme"},
+    {id: 2, nom: "Poire"},
+    {id: 3, nom: "Abricot"},
+]
+
 
 ## Running unit tests
 
