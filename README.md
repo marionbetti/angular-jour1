@@ -44,9 +44,9 @@ course : Array&lt;Object&gt;=  [
 
 ## exo 3 créer un service et l'utiliser dans un composant
 
-Créer un service commentaire
+Créer un service `commentaire`
 
-- dispose d'une méthode getComments
+- dispose d'une méthode `getComments()`
 - renvoyer le JSON suivant :
 <pre>
 [
