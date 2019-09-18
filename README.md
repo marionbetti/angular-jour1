@@ -42,10 +42,20 @@ course : Array&lt;Object&gt;=  [
 5. regarder que tout est conforme dans [http://localhost:4200](http://localhost:4200)
 
 
+## exo 3 créer un service et l'utiliser dans un composant
 
-## Running unit tests
+Créer un service commentaire
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+- dispose d'une méthode getComments
+- renvoyer le JSON suivant :
+<pre>
+[
+	{id:1, text:"super article", auteur:"moi"},
+	{id:2, text:"attention aux fautes d'orthographes", auteur:"autre"},
+]
+</pre> 
+
+Utiliser ce service dans le composant quatrieme (avec l'injection de dépendance)
 
 ## Running end-to-end tests
 
