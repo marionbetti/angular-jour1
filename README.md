@@ -24,12 +24,13 @@ qui va afficher à l'écran le texte suivant (en utilisant *ngFor):
 - Abricot
 
 via une variable dans la class QuatriemeComponent
-
-course : Array&lt;string&gt;=  [
-    {id: 1, nom: "Pomme"},
-    {id: 2, nom: "Poire"},
-    {id: 3, nom: "Abricot"},
+<pre>
+course : Array&lt;string&gt;=  [ 
+    {id: 1, nom: "Pomme"}, 
+    {id: 2, nom: "Poire"}, 
+    {id: 3, nom: "Abricot"}, 
 ]
+</pre>
 
 
 ## Running unit tests
