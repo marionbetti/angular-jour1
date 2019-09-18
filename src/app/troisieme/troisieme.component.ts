@@ -6,6 +6,7 @@ import { Component } from '@angular/core';
     <li>{{ matiere }}</li>
     <li>{{ dt_creation }}</li>
     <li>{{ getAnnee() }}</li>
+    <li>{{ getDateFr() }}</li>
   </ul>
   {{ useConsole() }}
   `
@@ -24,6 +25,15 @@ export class TroisiemeComponent {
   getAnnee()
   {
     return this.dt_creation.getFullYear();
+  }
+
+  // créer une méthode de class qui affiche la date au format JJ/MM/AAAA
+
+  getDateFr()
+  {
+    let dt:any = this.dt_creation;
+        dt = `${dt.getDate()}/${("0" + (dt.getMonth() + 1)).slice(-2)}/${dt.getFullYear()}`;
+    return dt;
   }
 
   useConsole()
