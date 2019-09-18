@@ -7,6 +7,7 @@ import { DeuxiemeComponent } from './deuxieme.component';
 import { TroisiemeComponent } from './troisieme/troisieme.component';
 import { QuatriemeComponent } from './quatrieme/quatrieme.component';
 import { ProduitService } from './produit.service';
+import { CommentairesService } from './commentaires.service';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { ProduitService } from './produit.service';
     BrowserModule
   ],
   providers: [
-    ProduitService
+    ProduitService,
+    CommentairesService
   ],
   bootstrap: [AppComponent]
 })

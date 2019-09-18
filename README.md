@@ -57,6 +57,12 @@ Créer un service `commentaire`
 
 Utiliser ce service dans le composant quatrieme (avec l'injection de dépendance)
 
+### solution
+
+1. créer le fichier commentaires.service.ts
+2. modifier le fichier src/app/app.module.ts (injection de dépendance)
+
+
 ## Running end-to-end tests
 
 Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
