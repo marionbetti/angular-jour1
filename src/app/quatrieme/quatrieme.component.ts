@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 
+import { ProduitService } from '../produit.service';
+
 interface Produit{
   id: number,
   nom: string
@@ -14,9 +16,6 @@ interface Produit{
   `
 })
 export class QuatriemeComponent {
-  course : Array<Produit>=  [ 
-      {id: 1, nom: "Pomme"}, 
-      {id: 2, nom: "Poire"}, 
-      {id: 3, nom: "Abricot"}, 
-  ]
+
+  course : Array<Produit>=  (new ProduitService()).getProduit()
 }
