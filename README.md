@@ -32,6 +32,7 @@ course : Array&lt;Object&gt;=  [
 ]
 </pre>
 
+[google](http://google.com){:target="_blank"}
 
 ## Running unit tests
 
