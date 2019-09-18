@@ -17,5 +17,12 @@ interface Produit{
 })
 export class QuatriemeComponent {
 
-  course : Array<Produit>=  (new ProduitService()).getProduit()
+  course : Array<Produit> ;
+
+  constructor(service : ProduitService ){
+    // new ProduitService()
+    this.course = service.getProduit() ;
+  }
+
+ 
 }
