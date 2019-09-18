@@ -8,6 +8,8 @@ import { TroisiemeComponent } from './troisieme/troisieme.component';
 import { QuatriemeComponent } from './quatrieme/quatrieme.component';
 import { ProduitService } from './produit.service';
 import { CommentairesService } from './commentaires.service';
+import { BlogComponent } from './blog/blog.component';
+import { DataBlogService } from './data-blog.service';
 
 @NgModule({
   declarations: [
@@ -15,14 +17,16 @@ import { CommentairesService } from './commentaires.service';
     PremierComponent,
     DeuxiemeComponent,
     TroisiemeComponent,
-    QuatriemeComponent
+    QuatriemeComponent,
+    BlogComponent
   ],
   imports: [
     BrowserModule
   ],
   providers: [
     ProduitService,
-    CommentairesService
+    CommentairesService,
+    DataBlogService
   ],
   bootstrap: [AppComponent]
 })
