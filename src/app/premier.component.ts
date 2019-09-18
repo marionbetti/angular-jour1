@@ -15,7 +15,7 @@ import { Component } from '@angular/core';
     // premier => vous avez créé une nouvelle balise html
     // <premier></premier>
     // rappel <app-root></app-root>
-    template : "<h1>premier</h1>",
+    template : "<h1>Découverte de Angular</h1>",
 })
 export class PremierComponent{
 
