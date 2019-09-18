@@ -34,12 +34,12 @@ course : Array&lt;Object&gt;=  [
 
 ### Solution
 
-1 position dans le shell dans le dossier jour1
-2 lancer la commande `ng g c quatrieme`
-3 modifier le fichier `src/app/quatrieme/quatrieme.component.ts`
-4 insérer dans le fichier `src/app/app.component.html` la balise du composant
+1. position dans le shell dans le dossier jour1
+2. lancer la commande `ng g c quatrieme`
+3. modifier le fichier `src/app/quatrieme/quatrieme.component.ts`
+4. insérer dans le fichier `src/app/app.component.html` la balise du composant
  &lt;app-quatrieme&gt; &lt;/app-quatrieme&gt;
-5 regarder que tout est conforme dans [http://localhost:4200](http://localhost:4200)
+5. regarder que tout est conforme dans [http://localhost:4200](http://localhost:4200)
 
 
 
