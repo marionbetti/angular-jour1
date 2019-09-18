@@ -7,6 +7,7 @@ import { Component } from '@angular/core';
     <li>{{ dt_creation }}</li>
     <li>{{ getAnnee() }}</li>
     <li>{{ getDateFr() }}</li>
+    <li> {{ liste[1] }}</li>
   </ul>
   {{ useConsole() }}
   `
@@ -40,4 +41,11 @@ export class TroisiemeComponent {
   {
     console.log("afficher dans la console du navigateur")
   }
+
+  // afficher à l'écran Mardi 
+  liste : Array<string> = [
+    "Lundi",
+    "Mardi",
+    "Mercredi"
+  ]
 }
